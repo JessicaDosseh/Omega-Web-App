@@ -9,11 +9,6 @@
   
 ![License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12)
 
-<a aria-label="Omega-Web-App is free to use" href="https://github.com/JessicaDosseh/Omega-Web-App/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />
-</a>
-  
-
 </div>
 
 <br>
