@@ -39,16 +39,15 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 
 ---
 
+:no_entry_sign:  THIS SECTION DOES NOT CURRENTLY WORK :(  :no_entry_sign:
+
 :fire:  As of right now you can not run expo within you work space ——
 [Issues documentation](https://github.com/JessicaDosseh/Omega-Web-App/pull/1#issuecomment-633067802)
 
 
->> To run your expo work space 
+>> To run your expo work space (In Theory)
 - [ ] Click this [LINK](https://github.com/JessicaDosseh/Omega-Expo/tree/fc2a50214abf7315ad00bca6241d9a1fca7dfee2), fork a copy and clone it in your terminal.  
 - [ ] To set it up run `yarn` then run `expo install`
-- [ ] Run `expo start`
-
-
-:no_entry_sign:  JK THIS DOES NOT CURRENTLY WORK :(  :no_entry_sign: 
+- [ ] Run `expo start` 
 
   
