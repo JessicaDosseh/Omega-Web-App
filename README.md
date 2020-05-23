@@ -3,15 +3,11 @@
 <h1 align="center">Welcome to Omega 2020</h1>
 <p align="center">The online sudoku website.</p>
 
-<p align="center">
+<div align="center">
+[![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+[![License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12)
+</div>
 
-<a aria-label="Omega-Web-App is free to use" href="https://github.com/JessicaDosseh/Omega-Web-App/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />
-  </a>
-  
-  ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-
-</p>
 <br>
 
 ---
