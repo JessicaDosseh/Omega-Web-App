@@ -1,7 +1,7 @@
 <h1 align="center"><img src="omega-logo.png" /></h1>
 
 <h1 align="center">Welcome to Omega 2020</h1>
-<p align="center">The online sudoku app.</p>
+<p align="center">The online sudoku website.</p>
 
 <p align="center">
 
