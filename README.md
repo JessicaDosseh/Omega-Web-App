@@ -1,4 +1,4 @@
-<h1 align="center"><img src="omega-logo.png" /></h1>
+<h1 align="center"><img src="assets/omega-logo.png" /></h1>
 
 <h1 align="center">Welcome to Omega 2020</h1>
 <p align="center">The online sudoku website.</p>
@@ -21,6 +21,10 @@
 :desktop_computer: Web Repo: [find it here](https://github.com/JessicaDosseh/Omega-Web-App.git)  
 
 :iphone: Web-App Repo: [find it here](https://github.com/JessicaDosseh/Omega-Expo.git) 
+
+---
+
+<h1 align="center"><img src="assets/landing-page.png" /></h1>
 
 ---
 
