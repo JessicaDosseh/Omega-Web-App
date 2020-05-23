@@ -14,13 +14,13 @@
 
 ---
 
-Deployed URL: coming soon 
+:desktop: Deployed URL: coming soon 
 
-App store and Google play URL: coming soon
+:iphone: App store and Google play URL: coming soon
 
-Web Repo: [find it here](https://github.com/JessicaDosseh/Omega-Web-App.git)  
+:desktop: Web Repo: [find it here](https://github.com/JessicaDosseh/Omega-Web-App.git)  
 
-Web-App Repo: [find it here](https://github.com/JessicaDosseh/Omega-Expo.git) 
+:iphone: Web-App Repo: [find it here](https://github.com/JessicaDosseh/Omega-Expo.git) 
 
 ---
 
