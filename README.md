@@ -48,7 +48,7 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 - [ ] To set it up run `yarn` then run `expo install`
 - [ ] Run `expo start`
 
-```
+
 :no_entry_sign:  JK THIS DOES NOT CURRENTLY WORK :(  :no_entry_sign: 
-```
+
   
