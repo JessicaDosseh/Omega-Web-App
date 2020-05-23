@@ -1,3 +1,5 @@
+## [0.0.1.README-ERROR-workflow_setup](DOCUMENTATION/README-ERROR-workflow_setup.md)
+
 # Overview
 
 The goal is to set up an environment that works across multiple platforms [web, web-app, and mobile] to create a better experience for the user and a better development process for the developers. My initial thought was to use react with react-native; however, react-native-web introduces a lot of bugs that I currently don't know how to fix. So instead, I opted for a new framework -- expo. Expo works across multiple platforms; however, it does not seem to work if in a monorepo environment.
@@ -46,3 +48,16 @@ Create expo repo and add it as a submodule in packages
 > > One thing I noticed is that in the original expo file to reset the proper node_moduel, you have to run `yarn` then run `expo install`. This seems to work. However, when you try to do this in the monorepo package, the node_module does not install, and all you get is an error saying expo module does not exist — try running yarn add expo. When you run `yarn add expo`, it does not work.
 
 ## So I'm stuck what do I do?
+
+---
+
+## [Step 7.](#)
+
+Delete Omega-Expo submodule
+
+> So, I think I have a solution to the expo not running problem. Instead of connecting the expo app to the web app, we have to instead connect the web app to the expo app. 
+
+For more information click the link below
+
+## [0.0.2.README-ERROR-workflow_refactor](#)
+
