@@ -33,10 +33,12 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 
 DO your magic!
 
+-
 
-🔥 As of right now you can not run expo within you work space :( <br>
+🔥 As of right now you can not run expo within you work space ——
 [Issues documentation](https://github.com/JessicaDosseh/Omega-Web-App/pull/1#issuecomment-633067802)
 
+-
 
 > To run your expo work space 
 - [ ] Click this [LINK](https://github.com/JessicaDosseh/Omega-Expo/tree/fc2a50214abf7315ad00bca6241d9a1fca7dfee2), fork a copy and clone it in your terminal.  
