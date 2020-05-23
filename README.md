@@ -6,8 +6,7 @@
 <div align="center">
   
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
-  
-![License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12)
+[![License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12)
 
 </div>
 
