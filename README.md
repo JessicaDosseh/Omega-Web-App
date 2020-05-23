@@ -28,19 +28,18 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 - [ ] Run `git submodule update` to pull submodule files into your workspace. 
 - [ ] CD into the submodule and run `git checkout master`
 - [ ] Run `git pull` to make sure all your files are up to date. 
->> For more information on [submodules](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
+> For more information on [submodules](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
 
 
-DO your magic!
+:rocket: DO your magic!
 
---
+---
 
-🔥 As of right now you can not run expo within you work space ——
+:fire: As of right now you can not run expo within you work space ——
 [Issues documentation](https://github.com/JessicaDosseh/Omega-Web-App/pull/1#issuecomment-633067802)
 
---
 
-> To run your expo work space 
+>> To run your expo work space 
 - [ ] Click this [LINK](https://github.com/JessicaDosseh/Omega-Expo/tree/fc2a50214abf7315ad00bca6241d9a1fca7dfee2), fork a copy and clone it in your terminal.  
 - [ ] To set it up run `yarn` then run `expo install`
 - [ ] Run `expo start`
