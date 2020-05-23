@@ -16,6 +16,10 @@
 
 Deployed URL: coming soon 
 
+---
+
+## About Omega 2020
+
 OMEGA 2020 is an online sudoku app geared towards sudoku lovers and people who want to improve their sudoku skills.
 Learn how to play, upload your own sudoku games, and compete with friends :)
 
@@ -31,11 +35,11 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 > For more information on [submodules](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
 
 
-:rocket: DO your magic!
+:rocket:  DO your magic!
 
 ---
 
-:fire: As of right now you can not run expo within you work space ——
+:fire:  As of right now you can not run expo within you work space ——
 [Issues documentation](https://github.com/JessicaDosseh/Omega-Web-App/pull/1#issuecomment-633067802)
 
 
@@ -44,4 +48,7 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 - [ ] To set it up run `yarn` then run `expo install`
 - [ ] Run `expo start`
 
+```
+:no_entry_sign:  JK THIS DOES NOT CURRENTLY WORK :(  :no_entry_sign: 
+```
   
