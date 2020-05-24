@@ -27,6 +27,9 @@
 
 ---
 
+## UX Prototyp
+> :star: Link coming soon 
+
 <h1 align="center"><img src="assets/landing-page.png" /></h1>
 
 ---
