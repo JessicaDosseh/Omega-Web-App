@@ -3,21 +3,23 @@ import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import { makeStyles } from '@material-ui/core/styles';
 
-const NavBarWebSkeleton = () => {
+const NavBarWebAppSkeleton = () => {
 	const classes = useStyles();
 
 	return (
 		<Box className={classes.root} boxShadow={4}>
 			<Box className={classes.leftContainer}>
-				<Skeleton className={classes.text_2} />
-				<Skeleton className={classes.text_2} />
+				<Skeleton className={classes.text_2} height={55} />
+				<Skeleton className={classes.text_2} height={55} />
+				<Skeleton className={classes.text_2} height={55} />
+			</Box>
+
+			<Box className={classes.centerContainer}>
+				<Skeleton className={classes.text_1} />
 			</Box>
 
 			<Box className={classes.rightContainer}>
 				<Box className={classes.links}>
-					<Skeleton className={classes.text_4} />
-					<Skeleton className={classes.text_4} />
-					<Skeleton className={classes.text_4} />
 					<Skeleton className={classes.text_4} height={55} />
 				</Box>
 
@@ -51,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
 		left: 0,
 	},
 	leftContainer: {
-		width: '49%',
+		width: '40%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'left',
@@ -59,16 +61,29 @@ const useStyles = makeStyles((theme) => ({
 		marginLeft: '10px',
 	},
 	rightContainer: {
-		width: '50%',
+		width: '40%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'center',
 		alignItems: 'center',
 	},
+	centerContainer: {
+		width: '10%',
+		display: 'flex',
+		flexFlow: 'row wrap',
+		justifyContent: 'center',
+		alignItems: 'center',
+	},
+	text_1: {
+		width: 50,
+		height: 50,
+		margin: '5px',
+	},
 	text_2: {
 		width: '15%',
 		height: 30,
 		margin: '5px',
+		marginRight: '15px',
 	},
 	text_4: {
 		width: '15%',
@@ -76,14 +91,14 @@ const useStyles = makeStyles((theme) => ({
 		margin: '5px',
 	},
 	links: {
-		width: '75%',
+		width: '55%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'flex-end',
 		alignItems: 'center',
 	},
 	icons: {
-		width: '25%',
+		width: '45%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'center',
@@ -99,4 +114,4 @@ const useStyles = makeStyles((theme) => ({
 	},
 }));
 
-export default NavBarWebSkeleton;
+export default NavBarWebAppSkeleton;
