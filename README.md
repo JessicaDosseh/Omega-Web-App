@@ -5,8 +5,11 @@
 
 <div align="center">
 
-![License](https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12)
-![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
+![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)
+![npm](https://img.shields.io/npm/v/npm?style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/JessicaDosseh/Omega-Web-App?style=for-the-badge)
+![npm peer dependency version (scoped)](https://img.shields.io/npm/dependency-version/eslint-config/dev/eslint?color=blueviolet&style=for-the-badge)
 
 </div>
 
@@ -14,7 +17,7 @@
 
 ---
 
-:desktop_computer: Deployed URL: coming soon 
+:desktop_computer: Deployed URL: ------------------ ![Website](https://img.shields.io/website?color=green&style=flat-square&url=https%3A%2F%2Fomega2020.netlify.app%2F)
 
 :iphone: App store and Google play URL: coming soon
 
