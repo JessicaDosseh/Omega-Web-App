@@ -1,10 +1,13 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
+import CardHeader from '@material-ui/core/CardHeader';
+import Avatar from '@material-ui/core/Avatar';
 import { makeStyles } from '@material-ui/core/styles';
 
-const NavBarMobileSkeleton = () => {
+const NavBarMobileSkeleton = (props) => {
 	const classes = useStyles();
+	const { loading = false } = props;
 
 	return (
 		<Box className={classes.root} boxShadow={4}>
@@ -18,11 +21,19 @@ const NavBarMobileSkeleton = () => {
 
 			<Box className={classes.rightContainer}>
 				<Box className={classes.icons}>
-					<Skeleton
-						className={classes.avatar}
-						variant='circle'
-						width={40}
-						height={40}
+					<CardHeader
+						avatar={
+							loading ? (
+								<Skeleton
+									className={classes.avatar}
+									variant='circle'
+									width={40}
+									height={40}
+								/>
+							) : (
+								<Avatar>A</Avatar>
+							)
+						}
 					/>
 				</Box>
 			</Box>

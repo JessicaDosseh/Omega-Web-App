@@ -6,9 +6,9 @@ import NavBarmMbileSkeleton from './constants/Skeleton/NavBar-mobile-skeleton.js
 function App() {
 	return (
 		<div className='App'>
-			{/* <NavBarWebSkeleton /> */}
+			<NavBarWebSkeleton />
 			{/* <NavBarWebAppSkeleton /> */}
-			<NavBarmMbileSkeleton />
+			{/* <NavBarmMbileSkeleton /> */}
 		</div>
 	);
 }
