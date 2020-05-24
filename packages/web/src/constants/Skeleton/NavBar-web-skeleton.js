@@ -3,7 +3,7 @@ import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
 import Avatar from '@material-ui/core/Avatar';
-import AdjustIcon from '@material-ui/icons/Adjust';
+import FiberManualRecordTwoToneIcon from '@material-ui/icons/FiberManualRecordTwoTone';
 import Button from '@material-ui/core/Button';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
@@ -86,7 +86,11 @@ const NavBarWebSkeleton = (props) => {
 									height={25}
 								/>
 							) : (
-								<AdjustIcon className={classes.mode} style={{ fontSize: 25 }} />
+								// lightmode / darkmode
+								<FiberManualRecordTwoToneIcon
+									className={classes.mode}
+									style={{ fontSize: 25 }}
+								/>
 							)
 						}
 					/>
