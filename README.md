@@ -31,7 +31,7 @@
 
 ## :desktop_computer:  [Web Repo](https://github.com/JessicaDosseh/Omega-Web-App.git)  
 
-## :iphone: [Web/iOS/Android Repo Bundle](https://github.com/JessicaDosseh/Omega-Expo.git) 
+## :iphone: [Web/iOS/Android Repo Bundle](https://github.com/JessicaDosseh/Omega-Bundle.git) 
 
 ---
 
