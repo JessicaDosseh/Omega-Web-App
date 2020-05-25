@@ -44,6 +44,14 @@
 
 ## INDEX
 
+
+- [About Project](#Welcome-to-Omega-2020)
+- [Getting Started](#getting-started) 
+   - [Project Set Up](#Project-Set-Up)
+- [Development Info](#development-info)
+- [Contributors](#Contributors)
+- [How to Contribute](#How-to-Contribute)
+
 This repo hosts:
 - The [Omega 2020](#) frontend and server code
 - A Web development environment
@@ -58,14 +66,6 @@ This repo hosts:
    >> [Trello Board](https://trello.com/b/NyKQYmbB/labs-pt11-omega2020)
    
    >> [Product Canvas](https://www.notion.so/Omega2020-5f51e1cc70a64da5a15e222acabdc463)
-
-
-- [About Project](#Welcome-to-Omega-2020)
-- [Getting Started](#getting-started) 
-   - [Project Set Up](#Project-Set-Up)
-- [Development Info](#development-info)
-- [Contributors](#Contributors)
-- [How to Contribute](#How-to-Contribute)
 
 ---
 
