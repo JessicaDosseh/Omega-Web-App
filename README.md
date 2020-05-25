@@ -49,8 +49,9 @@
 - [Getting Started](#getting-started) 
    - [Project Set Up](#Project-Set-Up)
 - [Development Info](#development-info)
-- [Contributors](#Contributors)
-- [How to Contribute](#How-to-Contribute)
+    - [Tech Stack](#Tech-Stack)
+    - [Contributors](#Contributors)
+    - [How to Contribute](#How-to-Contribute)
 
 This repo hosts:
 - The [Omega 2020](#) frontend and server code
