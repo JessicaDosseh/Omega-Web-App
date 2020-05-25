@@ -17,7 +17,7 @@
 
 ---
 
-:desktop_computer: Deployed URL: ------------------ ![Website](https://img.shields.io/website?color=green&style=flat-square&url=https%3A%2F%2Fomega2020.netlify.app%2F)
+:desktop_computer: Deployed URL: ------------------ ![Website](https://img.shields.io/website?color=green&style=flat-square&url=https://omega2020.netlify.app/)
 
 :iphone: App store and Google play URL: coming soon
 
