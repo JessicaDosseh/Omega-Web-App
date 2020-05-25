@@ -2,7 +2,7 @@ import React from 'react';
 import NavBarWebSkeleton from './constants/Skeleton/NavBar/NavBar-web-skeleton.js';
 import NavBarWebAppSkeleton from './constants/Skeleton/NavBar/NavBar-web_app-skeleton.js';
 import NavBarmMbileSkeleton from './constants/Skeleton/NavBar/NavBar-mobile-skeleton.js';
-import WebTemplatePage1 from './constants/Skeleton/Pages/web-template-page1';
+import Home from './components/HomePage';
 
 function App() {
 	return (
@@ -10,7 +10,7 @@ function App() {
 			<NavBarWebSkeleton />
 			{/* <NavBarWebAppSkeleton /> */}
 			{/* <NavBarmMbileSkeleton /> */}
-			<WebTemplatePage1 />
+			<Home />
 		</div>
 	);
 }
