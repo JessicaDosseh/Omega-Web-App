@@ -54,6 +54,7 @@
 ## 🛠 About Omega 2020
 
 [Trello Board](https://trello.com/b/NyKQYmbB/labs-pt11-omega2020)
+
 [Product Canvas](https://www.notion.so/Omega2020-5f51e1cc70a64da5a15e222acabdc463)
 
 OMEGA 2020 is an online sudoku app geared towards sudoku lovers and people who want to improve their sudoku skills.
