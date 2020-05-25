@@ -7,6 +7,7 @@ import WT1 from './constants/Skeleton/Pages/web-template-page1';
 import WT2 from './constants/Skeleton/Pages/web-template-page2';
 import WT3 from './constants/Skeleton/Pages/web-template-page3';
 import WT4 from './constants/Skeleton/Pages/web-template-page4';
+import WT5 from './constants/Skeleton/Pages/web-template-page5';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 			<WT2 />
 			<WT3 />
 			<WT4 />
+			<WT5 />
 		</div>
 	);
 }

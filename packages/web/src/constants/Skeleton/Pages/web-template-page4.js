@@ -7,7 +7,7 @@ import Button from '@material-ui/core/Button';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
-const WebTemplatePage3 = (props) => {
+const WebTemplatePage4 = (props) => {
 	const classes = useStyles();
 	const { loading = false } = props;
 
@@ -132,7 +132,7 @@ const WebTemplatePage3 = (props) => {
 const useStyles = makeStyles((theme) => ({
 	root: {
 		width: '100vw',
-		height: '60vh',
+		// height: '60vh',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'space-evenly',
@@ -195,4 +195,4 @@ const ColorButton = withStyles((theme) => ({
 	},
 }))(Button);
 
-export default WebTemplatePage3;
+export default WebTemplatePage4;
