@@ -61,6 +61,10 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 
 - [ ] Create a forked copy of this project.
 - [ ] Clone your OWN version of the repository in your terminal. 
+
+- [ ] `git pull` to make sure you are uptodate  
+- [ ] `git checkout -b new-branch-name` 
+
 - [ ] Run `yarn` or `npm install`to install node_module.
 - [ ] CD into `packages/web`
 - [ ] Run `yarn` or `npm install`to install node_module. 
