@@ -2,9 +2,6 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
-import game from '../../../assets/game.png';
-import puzzle from '../../../assets/puzzle.png';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
@@ -26,7 +23,7 @@ const WebTemplatePage1 = (props) => {
 								height={600}
 							/>
 						) : (
-							<img src={game} alt='game' />
+							'Insert Content Here'
 						)
 					}
 				/>
@@ -44,19 +41,16 @@ const WebTemplatePage1 = (props) => {
 									p={0}
 								/>
 							) : (
-								<Typography variant='h4' style={{ width: '70%' }}>
-									OMEGA 2020 is an online sudoku app. <br /> Learn how to play,
-									upload your own sudoku games, and compete with friends : &#41;
-								</Typography>
+								'Title'
 							)
 						}
 					/>
 					<CardHeader
-						avatar={
+						subheader={
 							loading ? (
 								<Skeleton width={500} height={400} margin={0} padding={0} />
 							) : (
-								<img src={puzzle} alt='puzzle' />
+								'Insert Content Here'
 							)
 						}
 					/>
@@ -71,7 +65,7 @@ const WebTemplatePage1 = (props) => {
 									p={0}
 								/>
 							) : (
-								<Typography variant='h6'>HAVE FUN ON THE GO!</Typography>
+								'Insert More Content Here'
 							)
 						}
 					/>
@@ -80,9 +74,7 @@ const WebTemplatePage1 = (props) => {
 							loading ? (
 								<Skeleton className={classes.text_4} width={60} height={55} />
 							) : (
-								<ColorButton variant='contained' color='primary'>
-									Get Started
-								</ColorButton>
+								'That`s right; Insert Even More Content Here'
 							)
 						}
 					/>
@@ -108,6 +100,8 @@ const useStyles = makeStyles((theme) => ({
 		flexFlow: 'row wrap',
 		justifyContent: 'center',
 		alignItems: 'center',
+		background: '#F6F6F6',
+		// border: '1px solid #F8F8F8',
 	},
 	rightContainer: {
 		width: '40%',
@@ -115,6 +109,7 @@ const useStyles = makeStyles((theme) => ({
 		flexFlow: 'column wrap',
 		justifyContent: 'center',
 		padding: 30,
+		background: '#F6F6F6',
 	},
 	container: {
 		width: '100%',
