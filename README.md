@@ -43,7 +43,7 @@
 
 - [About Project](#about-omega-2020)
 - [Getting Started](#getting-started) 
-  - [Project Set Up] (#Project-Set-Up)
+   - [Project Set Up](#Project-Set-Up)
 - [Development Info](#development-info)
 
 ---
