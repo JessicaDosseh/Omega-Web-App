@@ -145,7 +145,7 @@ This repo hosts:
 
 ## 🤝 Contributing
 
-Omega 2020 is a community project. We invite your participation through issues and pull requests! You can peruse the [contributing guidelines](#).
+Omega 2020 is a community project. We invite your participation through issues and pull requests! You can peruse the [contributing guidelines](https://github.com/JessicaDosseh/Omega-Web-App/blob/master/DOCUMENTATION/0.0.1.DOCS/CONTRIBUTION.md).
 
 When adding or changing a service [please add tests](#).
 
