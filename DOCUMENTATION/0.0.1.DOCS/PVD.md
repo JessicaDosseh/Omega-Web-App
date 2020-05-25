@@ -1,12 +1,20 @@
 ## Mission / Vision
 
+> What problem does this application solve?
+
+Current Web-based Sudoku puzzles are clumsy, hard to use, and not visually stimulating or rewarding. Furthermore, few if any offer the able to register on the site and save your puzzle to come back to later. Or choose a difficulty(rendom, easy, medium etc..) and theme (darkmode,city mode etc..) for your puzzle page. Also no other Sudoku Web apps have option to upload a paper sudoku image, bring whole puzzle over to the web and continue playing.
+
 ---
 
 ## Prototype
 
+> Comming Soon 
+
 ---
 
 ## User Testing
+
+> Comming Soon 
 
 ---
 
