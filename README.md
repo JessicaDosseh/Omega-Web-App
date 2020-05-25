@@ -16,7 +16,10 @@
 
 </div>
 
-<br>
+
+🛠 This is home to Omega 2020, an online sudoku app geared towards sudoku lovers and people who want to improve their sudoku skills. Learn how to play, upload your own sudoku games, and compete with friends :)
+
+<br/>
 
 ---
 
@@ -40,14 +43,28 @@
 ---
 
 ## INDEX
+
+This repo hosts:
+- The [Omega 2020](#) frontend and server code
+- A Web development environment
+
 > 📂 For more information, read through our [DOCUMENTATION](https://github.com/JessicaDosseh/Omega-Web-App/tree/master/DOCUMENTATION)
 >> [Project Vision Document - (PVD)](https://github.com/JessicaDosseh/Omega-Web-App/blob/master/DOCUMENTATION/0.0.1.DOCS/PVD.md)
+>> [Usage](#)
+
+>> [Design Specification](#)
+
+>> [Trello Board](https://trello.com/b/NyKQYmbB/labs-pt11-omega2020)
+
+>> [Product Canvas](https://www.notion.so/Omega2020-5f51e1cc70a64da5a15e222acabdc463)
 
 
-- [About Project](#about-omega-2020)
+- [About Project](#Welcome-to-Omega-2020)
 - [Getting Started](#getting-started) 
    - [Project Set Up](#Project-Set-Up)
 - [Development Info](#development-info)
+- [Contributors](#Contributors)
+- [How to Contribute](#How-to-Contribute)
 
 ---
 
@@ -84,4 +101,20 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 ---
 
 # Development Info
-  
+
+---
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](#)].
+🚫 Insert screenshot(s) here.
+
+---
+
+## 🤝 Contributing
+
+Shields is a community project. We invite your participation through issues and pull requests! You can peruse the [contributing guidelines](#).
+
+When adding or changing a service [please add tests](#).
+
+This project has quite a backlog of suggestions! If you're new to the project, maybe you'd like to open a pull request to address one of them:
