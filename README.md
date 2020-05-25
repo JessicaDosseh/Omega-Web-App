@@ -103,6 +103,9 @@ This repo hosts:
 | Redux / Context API | SQL | jsonwebtoken |
 | Axios | Knex | Find in pakcage.json files |
 
+## [Testing](#)
+## [API Documentation](#)
+
 ---
 
 ## Contributors
