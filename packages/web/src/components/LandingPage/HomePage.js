@@ -128,6 +128,8 @@ const useStyles = makeStyles((theme) => ({
 
 const ColorButton = withStyles((theme) => ({
 	root: {
+		paddingLeft: 20,
+		paddingRight: 20,
 		color: theme.palette.getContrastText(blue[600]),
 		backgroundColor: blue[600],
 		'&:hover': {

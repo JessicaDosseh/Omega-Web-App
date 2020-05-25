@@ -6,30 +6,29 @@ import Button from '@material-ui/core/Button';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
-const WebTemplatePage1 = (props) => {
+const WebTemplatePage3 = (props) => {
 	const classes = useStyles();
 	const { loading = false } = props;
 
 	return (
 		<Box className={classes.root}>
-			<Box className={classes.leftContainer}>
-				<CardHeader
-					avatar={
-						loading ? (
-							<Skeleton
-								className='bannerIMG'
-								variant='rect'
-								width={600}
-								height={600}
-							/>
-						) : (
-							'Insert Content Here'
-						)
-					}
-				/>
-			</Box>
-			<Box className={classes.rightContainer}>
+			<Box className={classes.centerContainer}>
 				<Box className={classes.container}>
+					<CardHeader
+						title={
+							loading ? (
+								<Skeleton
+									className={classes.title}
+									width={500}
+									height={500}
+									m={0}
+									p={0}
+								/>
+							) : (
+								'IMG'
+							)
+						}
+					/>
 					<CardHeader
 						title={
 							loading ? (
@@ -48,7 +47,7 @@ const WebTemplatePage1 = (props) => {
 					<CardHeader
 						subheader={
 							loading ? (
-								<Skeleton width={500} height={400} margin={0} padding={0} />
+								<Skeleton width={500} height={50} margin={0} padding={0} />
 							) : (
 								'Insert Content Here'
 							)
@@ -57,13 +56,7 @@ const WebTemplatePage1 = (props) => {
 					<CardHeader
 						subheader={
 							loading ? (
-								<Skeleton
-									className={classes.title}
-									width={400}
-									height={50}
-									m={0}
-									p={0}
-								/>
+								<Skeleton className={classes.title} width={400} height={30} />
 							) : (
 								'Insert More Content Here'
 							)
@@ -72,9 +65,32 @@ const WebTemplatePage1 = (props) => {
 					<CardHeader
 						subheader={
 							loading ? (
-								<Skeleton className={classes.text_4} width={60} height={55} />
+								<Skeleton className={classes.text_4} width={400} height={30} />
 							) : (
 								'That`s right; Insert Even More Content Here'
+							)
+						}
+					/>
+				</Box>
+
+				<Box className={classes.dual_buttons}>
+					<CardHeader
+						subheader={
+							loading ? (
+								<Skeleton className={classes.text_4} width={60} height={55} />
+							) : (
+								<ColorButton disabled>Button</ColorButton>
+							)
+						}
+					/>
+					<CardHeader
+						subheader={
+							loading ? (
+								<Skeleton className={classes.text_4} width={60} height={55} />
+							) : (
+								<Button variant='contained' disabled>
+									Button
+								</Button>
 							)
 						}
 					/>
@@ -87,37 +103,39 @@ const WebTemplatePage1 = (props) => {
 const useStyles = makeStyles((theme) => ({
 	root: {
 		width: '100vw',
-		height: '89vh',
+		height: '60vh',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'space-evenly',
 		padding: 50,
 		marginTop: '75px',
 	},
-	leftContainer: {
-		width: '40%',
-		display: 'flex',
-		flexFlow: 'row wrap',
-		justifyContent: 'center',
-		alignItems: 'center',
-		background: '#F6F6F6',
-		// border: '1px solid #F8F8F8',
-	},
-	rightContainer: {
+	centerContainer: {
 		width: '40%',
 		display: 'flex',
 		flexFlow: 'column wrap',
 		justifyContent: 'center',
 		padding: 30,
 		background: '#F6F6F6',
+		// border: '1px solid #F8F8F8',
 	},
 	container: {
 		width: '100%',
+		display: 'flex',
+		flexFlow: 'column wrap',
+		justifyContent: 'center',
+		alignItems: 'center',
+		alignContent: 'center',
 	},
 	title: {
 		width: '15%',
 		height: 30,
 		margin: '5px',
+	},
+	dual_buttons: {
+		display: 'flex',
+		flexFlow: 'row wrap',
+		justifyContent: 'space-evenly',
 	},
 }));
 
@@ -133,4 +151,4 @@ const ColorButton = withStyles((theme) => ({
 	},
 }))(Button);
 
-export default WebTemplatePage1;
+export default WebTemplatePage3;

@@ -1,18 +1,22 @@
 import React from 'react';
 import NavBarWebSkeleton from './constants/Skeleton/NavBar/NavBar-web-skeleton.js';
-import NavBarWebAppSkeleton from './constants/Skeleton/NavBar/NavBar-web_app-skeleton.js';
-import NavBarmMbileSkeleton from './constants/Skeleton/NavBar/NavBar-mobile-skeleton.js';
 import LandingPage from './components/LandingPage/LandingPage';
 import FooterSkeleton from './constants/Skeleton/Footer/Footer-skeleton';
+
+import WT1 from './constants/Skeleton/Pages/web-template-page1';
+import WT2 from './constants/Skeleton/Pages/web-template-page2';
+import WT3 from './constants/Skeleton/Pages/web-template-page3';
 
 function App() {
 	return (
 		<div className='App'>
-			<NavBarWebSkeleton />
-			{/* <NavBarWebAppSkeleton /> */}
-			{/* <NavBarmMbileSkeleton /> */}
-			<LandingPage />
-			<FooterSkeleton />
+			{/* <NavBarWebSkeleton /> */}
+			{/* <LandingPage /> */}
+			{/* <FooterSkeleton /> */}
+
+			<WT1 />
+			<WT2 />
+			<WT3 />
 		</div>
 	);
 }
