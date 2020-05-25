@@ -21,9 +21,11 @@
 
 :iphone: App store and Google play URL: coming soon
 
-:desktop_computer: Web Repo: [find it here](https://github.com/JessicaDosseh/Omega-Web-App.git)  
+---
 
-:iphone: Web-App Repo: [find it here](https://github.com/JessicaDosseh/Omega-Expo.git) 
+## :desktop_computer: [Web Repo](https://github.com/JessicaDosseh/Omega-Web-App.git)  
+
+## :iphone: [Web iOS Android Repo Bundle](https://github.com/JessicaDosseh/Omega-Expo.git) 
 
 ---
 
