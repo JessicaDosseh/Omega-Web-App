@@ -33,6 +33,8 @@
 
 ## :iphone: [Web/iOS/Android Repo Bundle](https://github.com/JessicaDosseh/Omega-Bundle.git) 
 
+> [Version 1 Repo](https://github.com/Lambda-School-Labs/omega2020-fe/tree/7510845175958d7fe47dc7c1204c9cd7cd181b54)
+
 ---
 
 ## UX Prototype
