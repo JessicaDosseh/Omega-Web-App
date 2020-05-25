@@ -7,7 +7,7 @@ The goal for setting up skeletons is to allow for a better developer experience.
 
 ---
 
-# [Step 0.](#)
+# [Step 0.](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/bbfd474eea22c6c7a565d1b547d5e2760593ea42)
 
 Add initial dependencies and set folders.
 
@@ -17,9 +17,9 @@ Add initial dependencies and set folders.
 
 ---
 
-# [Step 1.](#)
+# [Step 1.](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/b70b3611f28a21b13f08660ae8cd26852ffb532a)
 
-> > sub-steps: [1.1](#), [1.2](#) , [1.3](#) , [1.4](#)
+> > sub-steps: [1.1](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/9bf80093f8ad8f1c8e3d8c59a8b8723aa129851a), [1.2](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/86591fcad477330e95fefdc73a7c4530517ccf12) , [1.3](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/771b1362333aadbe6e7b528f6c426399e307792c) , [1.4](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/1ad02e8e1d3625f2c8e2229113166410642c78e0)
 
 Set up navbar skeleton
 
@@ -32,9 +32,9 @@ Set up navbar skeleton
 
 ---
 
-# [Step 2.](#)
+# [Step 2.](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/554f4aab3b3cca1fec5d28b3b478b249721eaa8d)
 
-> > sub-steps: [2.1](#), [2.2](#) , [2.3](#) , [2.4](#)
+> > sub-steps: [2.1](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/cfab3d44399dde59caa6c16ddba1bc7f6a3a448c), [2.2](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/cd5ae65179275b478af84ab57316900ef6d06e52) , [2.3](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/3c4d4cb54c9ccc84a4a2faeb18669309758c24e5) , [2.4](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/64b95740b529fbf88adbe1433292e53511e8dc24)
 
 Set up the web template skeletons
 
@@ -50,7 +50,7 @@ Set up the web template skeletons
 
 # ISSUES
 
-## [Step 2.](#)
+## [Step 2.](https://github.com/JessicaDosseh/Omega-Web-App/pull/2/commits/143558bdb07bc849fc395bc0688728a11572aa28)
 
 Make a note to fix some styling issues
 
