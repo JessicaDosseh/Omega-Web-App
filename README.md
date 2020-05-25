@@ -132,7 +132,7 @@ This repo hosts:
 
 > DS
 
-|  [Name](https://github.com/#)  |    [Name](https://github.com/#)  |  [Name](https://github.com/#)  |   [Name](https://github.com/#) |  [Name](https://github.com/#)  | 
+|[Stephen Plainte](https://github.com/#) | [Brandon Bruce](https://github.com/#) | [Ivan Santos](https://github.com/#) | [Daniel Aguilar](https://github.com/#) |  [Name](https://github.com/#)  | 
 |  :-------: | :-------: |  :-------: |  :-------: |  :-------: |  
 |  [<img src="#" width = "100" border-radius="50%"/>](https://github.com/#) |  [<img src="#" width = "100" border-radius="50%"/>](https://github.com/#) |  [<img src="#" width = "100" border-radius="50%"/>](https://github.com/#) |  [<img src="#" width = "100" border-radius="50%"/>](https://github.com/#) |  [<img src="#" width = "100" border-radius="50%"/>](https://github.com/#) |  
 |  [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/#)  | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/#)  | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/#)  | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/#)  | [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/#)  | 
