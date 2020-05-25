@@ -36,10 +36,25 @@
 
 ---
 
+## INDEX
+- For more information, read through our [DOCUMENTATION](https://github.com/JessicaDosseh/Omega-Web-App/tree/master/DOCUMENTATION)
+  - [Project Vision Document - (PVD)](#)
+
+- [About Project](#about-omega-2020)
+- [Getting Started](#getting-started) 
+  - [Project Set Up / & Run] (#project-set-up-/-&-run)
+- [Development Info](#development-info)
+
+---
+
 ## About Omega 2020
 
 OMEGA 2020 is an online sudoku app geared towards sudoku lovers and people who want to improve their sudoku skills.
 Learn how to play, upload your own sudoku games, and compete with friends :)
+
+---
+
+# Getting Started
 
 ## Project Set Up
 
@@ -52,4 +67,7 @@ Learn how to play, upload your own sudoku games, and compete with friends :)
 
 :rocket:  DO your magic!
 
+---
+
+# Development Info
   
