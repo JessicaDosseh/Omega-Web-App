@@ -37,8 +37,9 @@
 ---
 
 ## INDEX
-- For more information, read through our [DOCUMENTATION](https://github.com/JessicaDosseh/Omega-Web-App/tree/master/DOCUMENTATION)
+> For more information, read through our [DOCUMENTATION](https://github.com/JessicaDosseh/Omega-Web-App/tree/master/DOCUMENTATION)
   - [Project Vision Document - (PVD)](#)
+
 
 - [About Project](#about-omega-2020)
 - [Getting Started](#getting-started) 
