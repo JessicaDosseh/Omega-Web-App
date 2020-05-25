@@ -3,6 +3,7 @@ import NavBarWebSkeleton from './constants/Skeleton/NavBar/NavBar-web-skeleton.j
 import NavBarWebAppSkeleton from './constants/Skeleton/NavBar/NavBar-web_app-skeleton.js';
 import NavBarmMbileSkeleton from './constants/Skeleton/NavBar/NavBar-mobile-skeleton.js';
 import LandingPage from './components/LandingPage/LandingPage';
+import FooterSkeleton from './constants/Skeleton/Footer/Footer-skeleton';
 
 function App() {
 	return (
@@ -11,6 +12,7 @@ function App() {
 			{/* <NavBarWebAppSkeleton /> */}
 			{/* <NavBarmMbileSkeleton /> */}
 			<LandingPage />
+			<FooterSkeleton />
 		</div>
 	);
 }
