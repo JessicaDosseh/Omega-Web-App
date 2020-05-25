@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
-import logo from '../../assets/omega-logo.png';
+import logo from '../../../assets/omega-logo.png';
 import Avatar from '@material-ui/core/Avatar';
 import VerticalSplitIcon from '@material-ui/icons/VerticalSplit';
 import BookmarkIcon from '@material-ui/icons/Bookmark';
@@ -67,7 +67,9 @@ const NavBarWebAppSkeleton = (props) => {
 							loading ? (
 								<Skeleton className={classes.text_4} width={60} height={55} />
 							) : (
-								<Button variant='contained'>Play</Button>
+								<Button variant='outlined' color='primary'>
+									Play
+								</Button>
 							)
 						}
 					/>
@@ -122,6 +124,7 @@ const useStyles = makeStyles((theme) => ({
 		position: 'fixed',
 		top: 0,
 		left: 0,
+		background: '#FFFFFF',
 	},
 	leftContainer: {
 		width: '40%',

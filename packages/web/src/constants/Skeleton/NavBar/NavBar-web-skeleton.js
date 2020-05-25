@@ -69,7 +69,9 @@ const NavBarWebSkeleton = (props) => {
 							loading ? (
 								<Skeleton className={classes.text_4} width={60} height={55} />
 							) : (
-								<Button variant='contained'>Play</Button>
+								<Button variant='outlined' color='primary'>
+									Play
+								</Button>
 							)
 						}
 					/>
@@ -123,6 +125,7 @@ const useStyles = makeStyles((theme) => ({
 		position: 'fixed',
 		top: 0,
 		left: 0,
+		background: '#FFFFFF',
 	},
 	leftContainer: {
 		width: '49%',

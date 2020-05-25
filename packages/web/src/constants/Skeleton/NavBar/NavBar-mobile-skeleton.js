@@ -2,7 +2,7 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
-import logo from '../../assets/omega-logo.png';
+import logo from '../../../assets/omega-logo.png';
 import Avatar from '@material-ui/core/Avatar';
 import MenuIcon from '@material-ui/icons/Menu';
 import { blue } from '@material-ui/core/colors';
@@ -69,6 +69,7 @@ const useStyles = makeStyles((theme) => ({
 		position: 'fixed',
 		top: 0,
 		left: 0,
+		background: '#FFFFFF',
 	},
 	leftContainer: {
 		width: '40%',
