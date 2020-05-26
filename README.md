@@ -43,7 +43,7 @@
 ## UX Prototype
 :star: Link coming soon 
 
-<h1 align="center"><img src="assets/landing-page.png" /></h1>
+<h1 align="center"><img src="assets/omega.gif" /></h1>
 
 ---
 
