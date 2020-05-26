@@ -12,6 +12,7 @@ import WT2 from './Pages/web-template-page2';
 import WT3 from './Pages/web-template-page3';
 import WT4 from './Pages/web-template-page4';
 import WT5 from './Pages/web-template-page5';
+import WT6 from './Pages/web-template-page6';
 
 import FooterSkeleton from './Footer/Footer-skeleton';
 
@@ -39,6 +40,9 @@ function TemplateCatalog() {
 			<br /> <br /> <br />
 			<NavBarTextSkeleton title={'web template #5'} />
 			<WT5 />
+			<br /> <br /> <br />
+			<NavBarTextSkeleton title={'web template #6'} />
+			<WT6 />
 			<br /> <br /> <br />
 			{/**** Footer Templates  ****/}
 			<NavBarTextSkeleton title={'Footer template'} />

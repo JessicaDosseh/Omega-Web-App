@@ -87,7 +87,7 @@ const useStyles = makeStyles((theme) => ({
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'space-evenly',
-		marginTop: '75px',
+		// marginTop: '75px',
 		backgroundImage: `url(${BG1})`,
 		backgroundSize: 'cover',
 	},
