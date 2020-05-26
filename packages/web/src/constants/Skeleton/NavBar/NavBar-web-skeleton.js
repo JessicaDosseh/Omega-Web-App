@@ -2,9 +2,9 @@ import React from 'react';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
-import Avatar from '@material-ui/core/Avatar';
 import FiberManualRecordTwoToneIcon from '@material-ui/icons/FiberManualRecordTwoTone';
 import Button from '@material-ui/core/Button';
+import AvatarElement from '../../Elements/AvatarElement';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -106,7 +106,7 @@ const NavBarWebSkeleton = (props) => {
 									height={40}
 								/>
 							) : (
-								<Avatar className={classes.blue}>A</Avatar>
+								<AvatarElement />
 							)
 						}
 					/>
@@ -171,9 +171,8 @@ const useStyles = makeStyles((theme) => ({
 		marginRight: '25px',
 		marginLeft: '10px',
 	},
-	avatar: {
-		marginRight: '10px',
-		marginLeft: '25px',
+	paper: {
+		marginRight: theme.spacing(3),
 	},
 	blue: {
 		color: theme.palette.getContrastText(blue[500]),

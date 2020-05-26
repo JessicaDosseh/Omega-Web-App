@@ -47,7 +47,7 @@
 		]
 	},
 	"devDependencies": {
-		"jest": "^26.0.1",
+		"jest": "24.9.0",
 		"react-app-rewire-yarn-workspaces": "^1.0.3",
 		"react-app-rewired": "^2.1.6"
 	}
