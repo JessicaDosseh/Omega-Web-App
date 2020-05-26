@@ -55,7 +55,7 @@ const FooterSkeleton = (props) => {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		width: '104.5%',
+		width: '100%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'center',
