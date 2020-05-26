@@ -13,7 +13,7 @@ const NavBarWebSkeleton = (props) => {
 	const { loading = false } = props;
 
 	return (
-		<Box className={classes.root} boxShadow={4}>
+		<Box className={classes.root} boxShadow={1}>
 			<Box className={classes.leftContainer}>
 				<CardHeader
 					title={
@@ -118,7 +118,7 @@ const NavBarWebSkeleton = (props) => {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		width: '100vw',
+		width: '100%',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'center',

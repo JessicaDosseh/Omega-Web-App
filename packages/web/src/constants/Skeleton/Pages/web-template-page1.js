@@ -86,12 +86,11 @@ const WebTemplatePage1 = (props) => {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		width: '100vw',
+		width: '100%',
 		height: '89vh',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'space-evenly',
-		padding: 50,
 		marginTop: '75px',
 	},
 	leftContainer: {
@@ -123,6 +122,8 @@ const useStyles = makeStyles((theme) => ({
 
 const ColorButton = withStyles((theme) => ({
 	root: {
+		paddingLeft: 20,
+		paddingRight: 20,
 		color: theme.palette.getContrastText(blue[600]),
 		backgroundColor: blue[600],
 		'&:hover': {
