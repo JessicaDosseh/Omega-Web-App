@@ -1,4 +1,4 @@
-## [0.0.1.README-ERROR-workflow_setup](https://github.com/JessicaDosseh/Omega-Web-App/edit/master/DOCUMENTATION/0.0.1.README-ERROR/ERROR-workflow_setup.md)
+## [0.0.1.README-ERROR-workflow_setup](https://github.com/JessicaDosseh/Omega-Web-App/blob/master/DOCUMENTATION/0.0.1.README-ERROR/ERROR-workflow_setup.md)
 
  > [PULL REQUEST OVERVIEW](https://github.com/JessicaDosseh/Omega-Web-App/pull/1) 
 
