@@ -6,7 +6,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import videoGame from '../../assets/video-game-icon.png';
 import puzzle from '../../assets/puzzle-icon.png';
-import upload from '../../assets/imbox-icon.jpeg';
+import upload from '../../assets/inbox-icon.png';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
