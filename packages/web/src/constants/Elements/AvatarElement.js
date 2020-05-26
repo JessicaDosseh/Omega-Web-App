@@ -1,5 +1,6 @@
 import React from 'react';
 import Box from '@material-ui/core/Box';
+import Typography from '@material-ui/core/Typography';
 import Avatar from '@material-ui/core/Avatar';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Grow from '@material-ui/core/Grow';
@@ -7,6 +8,7 @@ import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
 import MenuItem from '@material-ui/core/MenuItem';
 import MenuList from '@material-ui/core/MenuList';
+import userIcon from '../../assets/user-icon.png';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -56,6 +58,7 @@ const AvatarElement = () => {
 				A
 			</Avatar>
 			<Popper
+				// placement='bottom-end'
 				open={open}
 				anchorEl={anchorRef.current}
 				role={undefined}
@@ -77,9 +80,19 @@ const AvatarElement = () => {
 									id='menu-list-grow'
 									onKeyDown={handleListKeyDown}
 								>
-									<MenuItem onClick={handleClose}>Profile</MenuItem>
-									<MenuItem onClick={handleClose}>My account</MenuItem>
-									<MenuItem onClick={handleClose}>Logout</MenuItem>
+									<MenuItem className={classes.root} onClick={handleClose}>
+										<img src={userIcon} alt='user icon' width={70} />
+										<br />
+										<Typography>User Name</Typography>
+										<Typography>username@email.com</Typography>
+										<br />
+									</MenuItem>
+									<MenuItem className={classes.root} onClick={handleClose}>
+										My account
+									</MenuItem>
+									<MenuItem className={classes.root} onClick={handleClose}>
+										Logout
+									</MenuItem>
 								</MenuList>
 							</ClickAwayListener>
 						</Paper>
@@ -94,11 +107,9 @@ const useStyles = makeStyles((theme) => ({
 	root: {
 		width: '100%',
 		display: 'flex',
-		flexFlow: 'row wrap',
-		justifyContent: 'center',
-		position: 'fixed',
-		top: 0,
-		left: 0,
+		flexFlow: 'column wrap',
+		justifyContent: 'flex-end',
+		alignContent: 'flex-end',
 		background: '#FFFFFF',
 	},
 	avatar: {
