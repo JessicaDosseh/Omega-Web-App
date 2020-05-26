@@ -5,4 +5,7 @@
 
 ## Example Templates 
 
-![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FJessicaDosseh%2FRNwjZjNZCU.png?alt=media&token=327e67f1-c678-464b-8f29-a5eac18de165)
+> ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FJessicaDosseh%2FKjX6xejjSw.png?alt=media&token=718114da-ea5b-432e-9579-104e37297707)
+
+> ![](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FJessicaDosseh%2FRNwjZjNZCU.png?alt=media&token=327e67f1-c678-464b-8f29-a5eac18de165)
+
