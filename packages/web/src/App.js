@@ -7,10 +7,11 @@ import FooterSkeleton from './constants/Skeleton/Footer/Footer-skeleton';
 function App() {
 	return (
 		<div className='App'>
-			{/* <NavBarWebSkeleton /> */}
-			{/* <LandingPage /> */}
-			{/* <FooterSkeleton /> */}
-			<TemplateCatalog />
+			{/* <TemplateCatalog /> */}
+
+			<NavBarWebSkeleton />
+			<LandingPage />
+			<FooterSkeleton />
 		</div>
 	);
 }

@@ -18,7 +18,7 @@ const NavBarTextSkeleton = (props) => {
 						loading ? (
 							<Skeleton className={classes.text_1} width={600} height={50} />
 						) : (
-							<Typography>Template-Catalog {props.title}</Typography>
+							<Typography> ⭐ Catalog {props.title}</Typography>
 						)
 					}
 				/>

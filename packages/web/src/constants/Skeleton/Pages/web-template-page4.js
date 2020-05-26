@@ -131,7 +131,7 @@ const WebTemplatePage4 = (props) => {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		width: '100vw',
+		width: '100%',
 		// height: '60vh',
 		display: 'flex',
 		flexFlow: 'row wrap',

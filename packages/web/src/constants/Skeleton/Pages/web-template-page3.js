@@ -102,12 +102,11 @@ const WebTemplatePage3 = (props) => {
 
 const useStyles = makeStyles((theme) => ({
 	root: {
-		width: '100vw',
+		width: '100%',
 		height: '60vh',
 		display: 'flex',
 		flexFlow: 'row wrap',
 		justifyContent: 'space-evenly',
-		padding: 50,
 		marginTop: '75px',
 	},
 	centerContainer: {
