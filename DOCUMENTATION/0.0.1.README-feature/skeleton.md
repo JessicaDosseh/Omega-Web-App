@@ -85,3 +85,15 @@ const useStyles = makeStyles((theme) => ({
 export default WebTemplatePage#;
 
 ```
+---
+
+# [Step 3.](https://github.com/JessicaDosseh/Omega-Web-App/pull/3)
+
+Finish setting up web template skeletons
+
+- [ ] styling issues resolved 
+- [ ] major skeleton components are ready to go
+
+---
+
+
