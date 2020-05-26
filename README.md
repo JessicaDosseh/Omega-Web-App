@@ -4,6 +4,9 @@
 <p align="center">The online sudoku website.</p>
 
 <div align="center">
+   
+   <a href="https://codeclimate.com/github/JessicaDosseh/Omega-Web-App/maintainability"><img src="https://api.codeclimate.com/v1/badges/9c35156c9090bbbe9959/maintainability" /></a>
+   <a href="https://codeclimate.com/github/JessicaDosseh/Omega-Web-App/test_coverage"><img src="https://api.codeclimate.com/v1/badges/9c35156c9090bbbe9959/test_coverage" /></a>
 
 ![APM](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=for-the-badge)
