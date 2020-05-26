@@ -11,7 +11,7 @@
 
 ---
 
-> Code Snippet 
+> Code Snippet ^ ^ ^
 
 ```js
 import React from 'react';
@@ -24,65 +24,55 @@ import { blue } from '@material-ui/core/colors';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
 const WebTemplatePage2 = (props) => {
-	const classes = useStyles();
-	const { loading = false } = props;
+ const classes = useStyles();
+ const { loading = false } = props;
 
-	return (
-		<Box className={classes.root}>
-			<Box className={classes.centerContainer}>
-				<Box className={classes.container}>
-					<CardHeader
-						avatar={
-							loading ? (
-								<Skeleton
-									className={classes.title}
-									width={600}
-									height={100}
-									m={0}
-									p={0}
-								/>
-							) : (
-								<Insert Content Here/>
-							)
-						}
-					/>
-					<CardHeader
-						subheader={
-							loading ? (
-								<Skeleton width={500} height={400} margin={0} padding={0} />
-							) : (
-								<Insert Content Here/>
-							)
-						}
-					/>
-					<CardHeader
-						subheader={
-							loading ? (
-								<Skeleton
-									className={classes.title}
-									width={400}
-									height={50}
-									m={0}
-									p={0}
-								/>
-							) : (
-								<Insert Content Here/>
-							)
-						}
-					/>
-					<CardHeader
-						subheader={
-							loading ? (
-								<Skeleton className={classes.text_4} width={60} height={55} />
-							) : (
-								<Insert Content Here/>
-							)
-						}
-					/>
-				</Box>
-			</Box>
-		</Box>
-	);
+ return (
+   <Box className={classes.root}>
+      <Box className={classes.centerContainer}>
+         <Box className={classes.container}>
+            <CardHeader
+               avatar={
+                 loading ? (
+                    <Skeleton
+                       className={classes.title} width={600} height={100}
+                    />
+                  ) : (
+                       <Insert Content Here/>
+                  )
+                }
+              />
+              <CardHeader
+                 subheader={
+                   loading ? (
+                      <Skeleton width={500} height={400}/>
+                    ) : (
+                         <Insert Content Here/>
+                    )
+                  }
+                />
+                <CardHeader
+                  subheader={
+                    loading ? (
+                       <Skeleton className={classes.title} width={400} height={50} />
+                    ) : (
+                         <Insert Content Here/>
+                    )
+                   }
+                 />
+                 <CardHeader
+                    subheader={
+                       loading ? (
+                          <Skeleton className={classes.text_4} width={60} height={55} />
+                        ) : (
+                             <Insert Content Here/>
+                        )
+                     }
+                   />
+             </Box>
+          </Box>
+      </Box>
+   );
 };
 
 const useStyles = makeStyles((theme) => ({
