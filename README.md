@@ -41,9 +41,7 @@
 ---
 
 ## UX Prototype
-:star: Link coming soon 
-
-<h1 align="center"><img src="assets/omega.gif" /></h1>
+:star: Coming soon 
 
 ---
 
