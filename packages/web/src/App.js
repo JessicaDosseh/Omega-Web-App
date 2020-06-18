@@ -22,7 +22,7 @@ const App = () => {
 
   const [theme, toggleTheme, componentMounted] = useDarkMode();
 
-  const themeMode = theme === 'light' ? lightMode : darkMode;
+  const themeMode = theme === 'dark' ? darkMode : lightMode;
 
   if (!componentMounted) {
     return <div />;

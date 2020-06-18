@@ -43,7 +43,6 @@ const HomePage = (props) => {
               />
             ) : (
               <Box className={classes.headerBox}>
-                {/* ADD SWITCH CASE FOR MOBILE HEADER AND SUBHEADER */}
                 {(() => {
                   switch (viewPort) {
                     case true:
@@ -125,12 +124,26 @@ const HomePage = (props) => {
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
-              <Container maxWidth='sm'>
-                <Box className={classes.gameBoard}>
-                  {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                  <img src={game} alt='game of the day' width='300' />
-                </Box>
-              </Container>
+              <Box className={classes.gameBoard}>
+                {(() => {
+                  switch (viewPort) {
+                    case true:
+                      return (
+                        <Box>
+                          {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
+                          <img src={game} alt='game of the day' width='300' />
+                        </Box>
+                      );
+                    default:
+                      return (
+                        <Box>
+                          {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
+                          <img src={game} alt='game of the day' width='600' />
+                        </Box>
+                      );
+                  }
+                })()}
+              </Box>
             )
           }
         />
