@@ -49,7 +49,7 @@ const HomePage = (props) => {
                         <Box>
                           <Typography
                             className={classes.header}
-                            style={{ fontSize: '1.7rem' }}
+                            style={{ fontSize: '1.3rem' }}
                           >
                             Omega 2020 Interactive Sudoku
                           </Typography>
