@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
 import Typography from '@material-ui/core/Typography';
 import GridOnIcon from '@material-ui/icons/GridOn';
+import { IconButton } from '@material-ui/core';
 import FiberManualRecordTwoToneIcon from '@material-ui/icons/FiberManualRecordTwoTone';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
@@ -23,7 +24,7 @@ const NavBarWeb = (props) => {
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
-              <Link to='/' className={classes.root}>
+              <Link to='/' className={classes.root} color='inherit'>
                 <GridOnIcon style={{ color: blue.A700, marginRight: 10 }} />
                 <Typography variant='subtitle2' style={{ fontWeight: 600 }}>
                   OMEGA 2020
@@ -33,11 +34,11 @@ const NavBarWeb = (props) => {
           }
         />
         <CardHeader
-          subheader={
+          title={
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
-              <Link to='/about' className={classes.root}>
+              <Link to='/about' className={classes.root} color='inherit'>
                 <Typography variant='caption'>About Us</Typography>
               </Link>
             )
@@ -48,33 +49,33 @@ const NavBarWeb = (props) => {
       <Box className={classes.rightContainer}>
         <Box className={classes.links}>
           <CardHeader
-            subheader={
+            title={
               loading ? (
                 <Skeleton className={classes.text} width={60} height={55} />
               ) : (
-                <Link to='/' className={classes.root}>
+                <Link to='/' className={classes.root} color='inherit'>
                   <Typography variant='caption'>Get Started</Typography>
                 </Link>
               )
             }
           />
           <CardHeader
-            subheader={
+            title={
               loading ? (
                 <Skeleton className={classes.text} width={60} height={55} />
               ) : (
-                <Link to='/' className={classes.root}>
+                <Link to='/' className={classes.root} color='inherit'>
                   <Typography variant='caption'>Archive</Typography>
                 </Link>
               )
             }
           />
           <CardHeader
-            subheader={
+            title={
               loading ? (
                 <Skeleton className={classes.text} width={60} height={55} />
               ) : (
-                <Link to='/' className={classes.root}>
+                <Link to='/' className={classes.root} color='inherit'>
                   <Typography variant='caption'>Leaderboard</Typography>
                 </Link>
               )
@@ -102,10 +103,12 @@ const NavBarWeb = (props) => {
                   height={25}
                 />
               ) : (
-                <FiberManualRecordTwoToneIcon
-                  className={classes.mode}
-                  style={{ fontSize: 30, marginTop: 10 }}
-                />
+                <IconButton color='inherit' onClick={props.toggleTheme}>
+                  <FiberManualRecordTwoToneIcon
+                    // className={classes.mode}
+                    style={{ fontSize: 30 }}
+                  />
+                </IconButton>
               )
             }
           />
@@ -124,34 +127,12 @@ const NavBarWeb = (props) => {
   );
 };
 
-const modeValue = true;
-
-const ModeTypeBG = (modeType) => {
-  switch (modeType) {
-    case true:
-      return '#141414';
-    default:
-      return '#FFFFFF';
-  }
-};
-
-const ModeTypeColor = (modeType) => {
-  switch (modeType) {
-    case true:
-      return '#FFFFFF';
-    default:
-      return '#141414';
-  }
-};
-
 const useStyles = makeStyles(() => ({
   root: {
     width: '100%',
     display: 'flex',
     flexFlow: 'row wrap',
     justifyContent: 'space-between',
-    background: `${ModeTypeBG(modeValue)}`,
-    color: `${ModeTypeColor(modeValue)}`,
     textDecoration: 'none',
     // textTransform: 'uppercase',
   },

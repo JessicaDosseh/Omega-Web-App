@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Link from '@material-ui/core/Link';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -16,7 +16,7 @@ const NavBarMobile = (props) => {
   const { loading = false } = props;
 
   return (
-    <Box className={classes.root} boxShadow={4}>
+    <Box className={classes.root}>
       <Box className={classes.leftContainer}>
         <CardHeader
           action={
@@ -35,7 +35,7 @@ const NavBarMobile = (props) => {
             loading ? (
               <Skeleton className={classes.text} width={40} height={40} />
             ) : (
-              <Link to='/' className={(classes.root, classes.Link)}>
+              <Link to='/' className={classes.root}>
                 {/* <img src={'logo'} alt='Logo' width='35' height='40' /> */}
                 <GridOnIcon style={{ color: blue.A700 }} />
               </Link>
@@ -61,34 +61,12 @@ const NavBarMobile = (props) => {
   );
 };
 
-const modeValue = true;
-
-const ModeTypeBG = (modeType) => {
-  switch (modeType) {
-    case true:
-      return '#141414';
-    default:
-      return '#FFFFFF';
-  }
-};
-
-const ModeTypeColor = (modeType) => {
-  switch (modeType) {
-    case true:
-      return '#FFFFFF';
-    default:
-      return '#141414';
-  }
-};
-
 const useStyles = makeStyles(() => ({
   root: {
     width: '100%',
     display: 'flex',
     flexFlow: 'row wrap',
     justifyContent: 'space-between',
-    background: `${ModeTypeBG(modeValue)}`,
-    color: `${ModeTypeColor(modeValue)}`,
     textDecoration: 'none',
   },
   leftContainer: {
