@@ -13,6 +13,7 @@ import GetAppIcon from '@material-ui/icons/GetApp';
 import GridOnIcon from '@material-ui/icons/GridOn';
 
 import BlueButton from '../../store/Buttons/BlueButton';
+import game from '../../assets/gameOfTheDay.png';
 
 const HomePage = (props) => {
   const classes = useStyles();
@@ -117,17 +118,18 @@ const HomePage = (props) => {
             )
           }
         />
-        {/* <CardHeader
+        <CardHeader
           action={
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
               <Box className={classes.gameBoard}>
-                <GridOnIcon style={{ fontSize: 400 }} />
+                {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
+                <img src={game} alt='game of the day' width='100%' />
               </Box>
             )
           }
-        /> */}
+        />
       </Box>
     </Box>
   );
