@@ -1,5 +1,6 @@
 import React from 'react';
 import useMediaQuery from '@material-ui/core/useMediaQuery';
+import Container from '@material-ui/core/Container';
 import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
@@ -118,15 +119,18 @@ const HomePage = (props) => {
             )
           }
         />
+
         <CardHeader
           action={
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
-              <Box className={classes.gameBoard}>
-                {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                <img src={game} alt='game of the day' width='100%' />
-              </Box>
+              <Container maxWidth='sm'>
+                <Box className={classes.gameBoard}>
+                  {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
+                  <img src={game} alt='game of the day' width='400' />
+                </Box>
+              </Container>
             )
           }
         />
