@@ -4,6 +4,8 @@ import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
 import MenuIcon from '@material-ui/icons/Menu';
+import { IconButton } from '@material-ui/core';
+import FiberManualRecordTwoToneIcon from '@material-ui/icons/FiberManualRecordTwoTone';
 import GridOnIcon from '@material-ui/icons/GridOn';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
@@ -23,7 +25,13 @@ const NavBarMobile = (props) => {
             loading ? (
               <Skeleton className={classes.text} width={40} height={40} />
             ) : (
-              <MenuIcon style={{ fontSize: 30, paddingTop: 10 }} />
+              // <MenuIcon style={{ fontSize: 30, paddingTop: 10 }} />
+              <IconButton color='inherit' onClick={props.toggleTheme}>
+                <FiberManualRecordTwoToneIcon
+                  // className={classes.mode}
+                  style={{ fontSize: 30 }}
+                />
+              </IconButton>
             )
           }
         />
