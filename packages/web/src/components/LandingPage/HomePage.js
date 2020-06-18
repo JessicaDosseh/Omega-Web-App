@@ -128,7 +128,7 @@ const HomePage = (props) => {
               <Container maxWidth='sm'>
                 <Box className={classes.gameBoard}>
                   {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                  <img src={game} alt='game of the day' width='400' />
+                  <img src={game} alt='game of the day' width='300' />
                 </Box>
               </Container>
             )
