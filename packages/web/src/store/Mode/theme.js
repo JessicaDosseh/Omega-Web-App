@@ -1,5 +1,6 @@
 export const darkMode = {
-  body: '#141414',
+  // body: '#141414',
+  body: '#000000',
   text: '#FFFFFF',
 };
 

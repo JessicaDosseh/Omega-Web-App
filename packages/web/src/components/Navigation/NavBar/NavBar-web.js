@@ -9,7 +9,7 @@ import { IconButton } from '@material-ui/core';
 import FiberManualRecordTwoToneIcon from '@material-ui/icons/FiberManualRecordTwoTone';
 import { blue } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
-import WhiteButton from '../../assets/WhiteButton';
+import WhiteButton from '../../../store/Buttons/WhiteButton';
 import AvatarElement from './AvatarElement';
 
 const NavBarWeb = (props) => {
