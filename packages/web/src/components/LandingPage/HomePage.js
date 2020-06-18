@@ -117,7 +117,7 @@ const HomePage = (props) => {
             )
           }
         />
-        <CardHeader
+        {/* <CardHeader
           action={
             loading ? (
               <Skeleton className={classes.text} width={60} height={55} />
@@ -127,7 +127,7 @@ const HomePage = (props) => {
               </Box>
             )
           }
-        />
+        /> */}
       </Box>
     </Box>
   );
