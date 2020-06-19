@@ -4,18 +4,12 @@ import Box from '@material-ui/core/Box';
 import Skeleton from '@material-ui/lab/Skeleton';
 import CardHeader from '@material-ui/core/CardHeader';
 import Typography from '@material-ui/core/Typography';
-import { grey } from '@material-ui/core/colors';
 import { makeStyles } from '@material-ui/core/styles';
 
-import CategoryIcon from '@material-ui/icons/Category';
-import AppsIcon from '@material-ui/icons/Apps';
-import GetAppIcon from '@material-ui/icons/GetApp';
-import GridOnIcon from '@material-ui/icons/GridOn';
-
 import BlueButton from '../../store/Buttons/BlueButton';
-import game from '../../assets/gameOfTheDay.png';
+import games from '../../assets/games.png';
 
-const HomePage = (props) => {
+const Banner = (props) => {
   const classes = useStyles();
   const { loading = false } = props;
 
@@ -46,36 +40,45 @@ const HomePage = (props) => {
                   switch (viewPort) {
                     case true:
                       return (
-                        <Box>
+                        <Box style={{ textAlign: 'center' }}>
                           <Typography
                             className={classes.header}
                             style={{ fontSize: '1.3rem' }}
                           >
-                            Omega 2020 Interactive Sudoku
+                            Improve Your Skills
+                            <br />
+                            By Understanding Game Strategies
                           </Typography>
                           <br />
                           <Typography className={classes.subheader}>
-                            Learn how to play, upload your own sudoku
+                            Learn to recognize key patterns and methods
                             <br />
-                            games, and compete with friends :&#41;
+                            to improve your speed and skill level
                           </Typography>
+                          <br />
+                          <br />
+                          <br />
+                          <br />
                         </Box>
                       );
                     default:
                       return (
                         <Box>
-                          <Typography variant='h3' className={classes.header}>
-                            Omega 2020 Interactive Sudoku
+                          <Typography variant='h4' className={classes.header}>
+                            Improve Your Skills By Understanding Game Strategies
                           </Typography>
                           <br />
                           <Typography
                             variant='h6'
                             className={classes.subheader}
                           >
-                            Learn how to play, upload your own sudoku
-                            <br />
-                            games, and compete with friends :&#41;
+                            Learn to recognize key patterns and methods to
+                            improve your speed and skill level
                           </Typography>
+                          <br />
+                          <br />
+                          <br />
+                          <br />
                         </Box>
                       );
                   }
@@ -90,29 +93,7 @@ const HomePage = (props) => {
               <Skeleton className={classes.text} width={60} height={55} />
             ) : (
               <Box>
-                <br />
-                <br />
-                <Box className={classes.space}>
-                  <CategoryIcon className={classes.icon} />
-                  <AppsIcon className={classes.icon} />
-                  <GetAppIcon className={classes.icon} />
-                </Box>
-                <br />
-                <br />
-              </Box>
-            )
-          }
-        />
-        <CardHeader
-          action={
-            loading ? (
-              <Skeleton className={classes.text} width={60} height={55} />
-            ) : (
-              <Box>
-                <BlueButton title={'Get Started; learn the game play'} />
-                <br />
-                <br />
-                <Typography variant='caption'>No signup required</Typography>
+                <BlueButton title={'Get Started Today'} />
               </Box>
             )
           }
@@ -128,16 +109,14 @@ const HomePage = (props) => {
                   switch (viewPort) {
                     case true:
                       return (
-                        <Box>
-                          {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                          <img src={game} alt='game of the day' width='300' />
+                        <Box className={classes.img}>
+                          {/* <img src={games} alt='games' width='300' /> */}
                         </Box>
                       );
                     default:
                       return (
-                        <Box>
-                          {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                          <img src={game} alt='game of the day' width='600' />
+                        <Box className={classes.img}>
+                          {/* <img src={games} alt='games' /> */}
                         </Box>
                       );
                   }
@@ -159,22 +138,25 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     alignItems: 'center',
     marginTop: 100,
-    // border: '2px solid red',
   },
   mainContainer: {
     display: 'flex',
     flexFlow: 'column wrap',
     justifyContent: 'center',
     alignItems: 'center',
-    textAlign: 'center',
-    // border: '2px solid orange',
+    textAlign: 'left',
   },
   subheader: {
     opacity: 0.3,
   },
-  icon: {
-    fontSize: 80,
-    color: grey[700],
+  img: {
+    width: '95vw',
+    height: '50vh',
+    backgroundImage: `url(${games})`,
+    backgroundRepeat: 'no-repeat',
+    // backgroundSize: 'contain, cover',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
   },
   gameBoard: {
     marginTop: 200,
@@ -186,4 +168,4 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default HomePage;
+export default Banner;
