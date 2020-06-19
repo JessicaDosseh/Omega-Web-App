@@ -36,7 +36,6 @@ const App = () => {
           <NavCondition toggleTheme={toggleTheme} />
           <Route exact path='/' component={LandingPage} />
           {/* <FooterSkeleton /> */}
-          {/* <button onClick={toggleTheme}>Toggle theme</button> */}
         </div>
       </ThemeProvider>
     </Router>

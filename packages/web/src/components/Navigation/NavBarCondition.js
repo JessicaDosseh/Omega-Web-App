@@ -19,7 +19,7 @@ const NavCondition = (props) => {
   }
 
   return (
-    <Box className={classes.root} boxShadow={4}>
+    <Box className={classes.root}>
       <Container>
         {(() => {
           switch (viewPort) {
@@ -30,7 +30,7 @@ const NavCondition = (props) => {
           }
         })()}
       </Container>
-      {/* text */}
+      <hr style={{ opacity: 0.2 }} />
     </Box>
   );
 };

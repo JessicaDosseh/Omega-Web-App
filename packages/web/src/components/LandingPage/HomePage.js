@@ -15,6 +15,7 @@ import GridOnIcon from '@material-ui/icons/GridOn';
 
 import BlueButton from '../../store/Buttons/BlueButton';
 import game from '../../assets/gameOfTheDay.png';
+import game2 from '../../assets/gameOfTheDay2.png';
 
 const HomePage = (props) => {
   const classes = useStyles();

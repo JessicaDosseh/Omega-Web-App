@@ -27,10 +27,7 @@ const NavBarMobile = (props) => {
             ) : (
               // <MenuIcon style={{ fontSize: 30, paddingTop: 10 }} />
               <IconButton color='inherit' onClick={props.toggleTheme}>
-                <FiberManualRecordTwoToneIcon
-                  // className={classes.mode}
-                  style={{ fontSize: 30 }}
-                />
+                <FiberManualRecordTwoToneIcon style={{ fontSize: 30 }} />
               </IconButton>
             )
           }

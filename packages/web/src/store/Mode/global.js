@@ -17,4 +17,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+div{
+  background: ${({ theme }) => theme.body};
+  color: ${({ theme }) => theme.text};
+}
+
 `;
