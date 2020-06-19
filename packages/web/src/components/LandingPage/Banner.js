@@ -150,7 +150,7 @@ const useStyles = makeStyles((theme) => ({
     opacity: 0.3,
   },
   img: {
-    width: '95vw',
+    width: '90vw',
     height: '50vh',
     backgroundImage: `url(${games})`,
     backgroundRepeat: 'no-repeat',
