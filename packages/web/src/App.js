@@ -34,7 +34,11 @@ const App = () => {
         <div className='App'>
           <GlobalStyles />
           <NavCondition toggleTheme={toggleTheme} />
-          <Route exact path='/' component={LandingPage} />
+          <Route
+            exact
+            path='/'
+            component={() => <LandingPage theme={theme} />}
+          />
           {/* <FooterSkeleton /> */}
         </div>
       </ThemeProvider>

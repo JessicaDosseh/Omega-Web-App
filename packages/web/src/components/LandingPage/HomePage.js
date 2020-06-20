@@ -14,6 +14,7 @@ import GridOnIcon from '@material-ui/icons/GridOn';
 
 import BlueButton from '../../store/Buttons/BlueButton';
 import game from '../../assets/gameOfTheDay.png';
+import game2 from '../../assets/gameOfTheDay2.png';
 
 const HomePage = (props) => {
   const classes = useStyles();
@@ -130,14 +131,53 @@ const HomePage = (props) => {
                       return (
                         <Box>
                           {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                          <img src={game} alt='game of the day' width='300' />
+                          {/* <img src={game} alt='game of the day' width='300' /> */}
+                          {(() => {
+                            switch (props.theme) {
+                              case 'dark':
+                                return (
+                                  <img
+                                    src={game}
+                                    alt='game of the day'
+                                    width='300'
+                                  />
+                                );
+                              default:
+                                return (
+                                  <img
+                                    src={game2}
+                                    alt='game of the day'
+                                    width='300'
+                                  />
+                                );
+                            }
+                          })()}
                         </Box>
                       );
                     default:
                       return (
                         <Box>
                           {/* <GridOnIcon style={{ fontSize: 400 }} /> */}
-                          <img src={game} alt='game of the day' width='600' />
+                          {(() => {
+                            switch (props.theme) {
+                              case 'dark':
+                                return (
+                                  <img
+                                    src={game}
+                                    alt='game of the day'
+                                    width='600'
+                                  />
+                                );
+                              default:
+                                return (
+                                  <img
+                                    src={game2}
+                                    alt='game of the day'
+                                    width='600'
+                                  />
+                                );
+                            }
+                          })()}
                         </Box>
                       );
                   }

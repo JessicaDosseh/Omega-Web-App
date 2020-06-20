@@ -4,11 +4,11 @@ import Container from '@material-ui/core/Container';
 import HomePage from './HomePage';
 import Banner from './Banner';
 
-const LandingPage = () => {
+const LandingPage = (props) => {
   return (
     <Box>
       <Container>
-        <HomePage />
+        <HomePage theme={props.theme} />
       </Container>
       <Banner />
     </Box>

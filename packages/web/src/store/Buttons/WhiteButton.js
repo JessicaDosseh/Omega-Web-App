@@ -14,8 +14,7 @@ const WhiteButton = (props) => {
 
 const ColorButton = withStyles(() => ({
   root: {
-    paddingLeft: 20,
-    paddingRight: 20,
+    padding: '5px 40px 5px 40px',
     color: blue.A700,
     backgroundColor: grey[50],
     '&:hover': {
