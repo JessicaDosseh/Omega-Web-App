@@ -75,7 +75,7 @@ const Simulation4x4 = (props) => {
                     </Typography>
                     <br />
                     <Typography className={classes.subheader}>
-                      In the light blue box enter the number 6.
+                      In the light blue box enter the number 2.
                     </Typography>
                     <br />
                     <Typography
