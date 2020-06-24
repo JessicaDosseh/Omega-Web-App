@@ -210,7 +210,8 @@ const useStyles = makeStyles((theme) => ({
     // border: '2px solid orange',
   },
   subheader: {
-    opacity: 0.3,
+    // opacity: 0.3,
+    color: '#A2A2A2',
   },
   icon: {
     fontSize: 80,
